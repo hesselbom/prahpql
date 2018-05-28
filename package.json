@@ -12,7 +12,7 @@
     "release": "git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "author": "Viktor Hesselbom",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "preact": "*"
   },
